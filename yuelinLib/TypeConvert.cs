@@ -21,7 +21,7 @@ namespace yuelinLib
                 Tuple.Create("\\d{2}-\\d{2}-\\d{4}", "dd-MM-yyyy"),
                 Tuple.Create("\\d{2}/\\d{2}/\\d{4}", "dd/MM/yyyy"),
                 Tuple.Create("\\d{4}/\\d{2}/\\d{2}", "yyyy/MM/dd"),
-                Tuple.Create("\\d{4} \\d{2} \\d{2}", "yyyy MM dd")
+                Tuple.Create("\\d{4} \\d{2} \\d{2}", "yyyy MM dd")//
             ];
 
             _customDateTimeFormats =
